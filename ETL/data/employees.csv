@@ -1,0 +1,16 @@
+EmployeeID,Name,Department,Position,Salary,Gender,SeniorityLevelClass,JoiningDate
+001,John Doe,Engineering,Software Engineer,75000,Male,Junior,2023-06-15
+002,Jane Smith,Marketing,Marketing Manager,80000,Female,Senior,2022-11-20
+003,Michael Johnson,Finance,Financial Analyst,70000,Male,Junior,2023-08-10
+004,Emily Wang,Human Resources,HR Coordinator,60000,Female,Junior,2023-03-25
+005,David Brown,Operations,Operations Manager,85000,Male,Senior,2023-09-01
+006,Sarah Lee,Engineering,Project Manager,90000,Female,Senior,2022-07-10
+007,Alexander Kim,Marketing,Marketing Specialist,65000,Male,Junior,2023-05-12
+008,Jessica Garcia,Finance,Accountant,68000,Female,Junior,2023-10-18
+009,Ryan Martinez,Operations,Operations Coordinator,62000,Male,Junior,2023-04-05
+010,Laura Taylor,Human Resources,HR Manager,78000,Female,Senior,2022-09-15
+011,Chris Evans,Engineering,Lead Software Engineer,85000,Male,Senior,2023-11-30
+012,Alice Johnson,Marketing,Social Media Manager,72000,Female,Junior,2022-12-20
+013,Ethan Brown,Finance,Financial Controller,95000,Male,Senior,2023-02-28
+014,Olivia Davis,Operations,Operations Specialist,67000,Female,Junior,2023-07-05
+015,Matthew Wilson,Engineering,Software Developer,70000,Male,Junior,2023-01-10

@@ -1,0 +1,23 @@
+version: '3'
+services:
+  mageai:
+    image: mageai/mageai
+    volumes:
+      - ./ETL/:/home/src
+    ports:
+      - "6789:6789"
+    env_file:
+      - postgres.env
+    command: /app/run_app.sh mage start Mena_Aanlytics
+
+  postgres:
+    image: postgres
+    ports:
+      - "7458:5432"
+    env_file:
+      - postgres.env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:

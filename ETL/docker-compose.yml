@@ -1,0 +1,29 @@
+version: '3.7'
+
+services:
+  db:
+    image: postgres
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${pg_dbname}
+      POSTGRES_USER: ${pg_user}
+      POSTGRES_PASSWORD: ${pg_password}
+      POSTGRES_HOST: ${pg_host}
+      POSTGRES_PORT: ${pg_port}
+    ports:
+      - "${pg_port}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  etl:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:

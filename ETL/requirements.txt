@@ -1,0 +1,6 @@
+ipykernel
+pandas
+sqlalchemy
+psycopg2-binary
+nbconvert
+requests

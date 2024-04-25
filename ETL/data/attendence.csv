@@ -1,0 +1,17 @@
+EmployeeID,PromotionTimestamp,FromLevel,ToLevel
+001,2023-09-15 10:30:45,Junior,Senior
+002,2023-12-05 09:15:20,Junior,Senior
+002,2024-03-20 14:45:30,Senior,Lead
+003,2024-02-10 11:20:55,Junior,Senior
+004,2023-09-30 12:40:10,Junior,Senior
+005,2023-11-25 08:55:35,Junior,Senior
+006,2023-10-15 13:10:25,Junior,Senior
+007,2023-08-20 10:05:55,Junior,Senior
+008,2024-01-10 09:30:40,Junior,Senior
+009,2024-03-05 11:20:15,Junior,Senior
+010,2023-11-15 14:00:20,Junior,Senior
+011,2024-01-20 09:45:30,Junior,Senior
+012,2024-02-10 10:30:20,Junior,Senior
+013,2023-12-05 11:15:50,Junior,Senior
+014,2023-10-25 08:20:40,Junior,Senior
+015,2023-09-15 09:35:10,Junior,Senior
